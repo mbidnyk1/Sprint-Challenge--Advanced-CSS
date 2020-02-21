@@ -96,6 +96,9 @@
 
       .btn {
         .custom-btn();
+        &:hover {
+          .custom-btn(@bg-color:white,@font-color:@header-font-color);
+        }
         @media @phone {
           .custom-btn(@width:100%,@height:60px);
         }
