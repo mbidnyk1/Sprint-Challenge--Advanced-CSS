@@ -9,3 +9,13 @@
     flex-direction: @direction;
     align-items: @align;
 }
+
+.custom-btn(@bg-color:@header-font-color, @width:100px, @font-color:@white, @height:30px) {
+    background-color:@bg-color;
+    width:@width;
+    color:@font-color;
+    font-size: 2rem;
+    border-radius: 5px;
+    height: @height;
+    .custom-flex(center,center);
+}
